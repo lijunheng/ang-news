@@ -161,9 +161,7 @@ buildcontrol: {
         }]
       },
       server: '.tmp'
-    }
-    server: '.tmp'
-  },
+    },
 
     // Add vendor prefixed styles
     autoprefixer: {
