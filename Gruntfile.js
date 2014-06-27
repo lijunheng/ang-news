@@ -86,20 +86,6 @@ livereload: {
           }
         }
       },
-      buildcontrol: {
-        options: {
-          dir: 'dist',
-          commit: true,
-          push: true,
-          message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
-        },
-        heroku: {
-          options: {
-            remote: 'git@heroku.com:heroku-app-1985.git',
-            branch: 'master'
-          }
-        }
-      }
       test: {
         options: {
           port: 9001,
@@ -144,7 +130,20 @@ livereload: {
   }
 },
 
-    // Empties folders to start fresh
+buildcontrol: {
+  options: {
+    dir: 'dist',
+    commit: true,
+    push: true,
+    message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+  },
+  heroku: {
+    options: {
+      remote: 'git@heroku.com:heroku-app-1985.git',
+      branch: 'master'
+    }
+  }
+},
     // Empties folders to start fresh
     clean: {
       dist: {
