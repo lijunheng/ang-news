@@ -2,6 +2,7 @@
   "name": "angnews",
   "version": "0.0.0",
   "dependencies": {
+    "coffee-script": "^1.7.1",
     "express": "^4.4.5",
     "gzippo": "^0.2.0"
   },
@@ -36,5 +37,19 @@
   },
   "scripts": {
     "test": "grunt test"
-  }
+  },
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lijunheng/ang-news"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lijunheng/ang-news/issues"
+  },
+  "homepage": "https://github.com/lijunheng/ang-news"
 }

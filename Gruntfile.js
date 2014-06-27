@@ -139,7 +139,7 @@ buildcontrol: {
   },
   heroku: {
     options: {
-      remote: 'git@heroku.com:heroku-app-1985.git',
+      remote: 'git@heroku.com:ang-news.git',
       branch: 'master'
     }
   }
